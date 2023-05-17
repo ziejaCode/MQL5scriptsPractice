@@ -24,7 +24,7 @@ void OnStart()
 int checkForOpenPositions(){
 
    bool PositionsOpened = false;
-         // here I check for open position on the chart this is just test from cloud fhgfhfh
+         // here I check for open position on the chart this is just test from cloud fhgfhfh hhh
       if(PositionsTotal()<=0){
             Comment("No open positons ", PositionsTotal());
             PositionsOpened = true;
