@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
 //|                                         CheckForOpenPosition.mq5 |
-//|                                  Copyright 2022, MetaQuotes Ltd. |
+//|                                  Copyright 2023, MetaQuotes Ltd. |
 //|                                            https://www.marty.com |
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2022, MetaQuotes Ltd."
@@ -24,7 +24,7 @@ void OnStart()
 int checkForOpenPositions(){
 
    bool PositionsOpened = false;
-         // here I check for open position on the chart
+         // here I check for open position on the chart this is just test
       if(PositionsTotal()<=0){
             Comment("No open positons ", PositionsTotal());
             PositionsOpened = true;
